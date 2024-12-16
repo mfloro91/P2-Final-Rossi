@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'deconico';
+    src: url('imagenes/Marca/DECONICO.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #232323;
+    color: white;
+}
+
+.body-panel {
+    background-color:  rgb(16, 17, 2);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "deconico";
+}
+
+.error img {
+    width: 50%;
+}
+
+.containerForm img {
+    object-fit: contain;
+}
+
+
+#formulario,
+.sectionGracias {
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #f1f1ba;
+    border-style: solid;
+    padding: 4rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-floating>label {
+    color: #232323;
+}
+
+.p-form {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.form-control {
+    width: 70%;
+}
+
+.form-text {
+    color: white;
+}
+
+.form-control-panel {
+    width: 100%;
+}
+
+.form-check-input:checked {
+    background-color: #d9db5544;
+    border-color: #D8DB55;
+}
+
+.ulFiltros {
+    color: #D8DB55;
+    font-weight: bold;
+}
+
+li {
+    list-style-position: outside;
+    list-style: none;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+.marca {
+    padding-right: 2em;
+}
+
+.card h3 {
+    font-size: 22px;
+}
+
+.card {
+    border-color: #232323;
+    background-color: #232323;
+}
+
+.cardProductos {
+    background-color: #232323b6;
+    color: white;
+    min-height: 100%;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #f1f1ba;
+    border-style: solid;
+}
+
+.card-text {
+    margin-top: 0.2rem;
+}
+
+.img-card {
+    height: 209px;
+    width:auto;
+}
+
+.cardproductos:hover {
+    transform: translateY(-3%);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.buttonCard {
+    padding-bottom: 1rem;
+}
+
+
+.card-img-overlay>h3 {
+    color: transparent;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link-icon {
+    color: white;
+}
+
+
+.navbar-text a, .navbar-text a:focus, .navbar-text {
+    color: white;
+    align-items: center;
+}
+
+.nav-link:hover, a:hover, .navbar-text a:hover {
+    color: #D8DB55;
+}
+
+.navbar-nav .nav-link.active {
+    color: #D8DB55;
+}
+
+
+.btn-acento {
+    background-color: #D8DB55;
+    border-color: #D8DB55;
+    color: #232323;
+
+}
+
+.btn-acento:hover {
+    background-color: #f5f820;
+    border-color: #D8DB55;
+    color: #232323;
+}
+
+
+.btn-outline-primary {
+    --bs-btn-color: #D8DB55;
+    --bs-btn-border-color: #D8DB55;
+    --bs-btn-hover-color: #232323;
+    --bs-btn-hover-bg: #D8DB55;
+    --bs-btn-hover-border-color: #D8DB55;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #D8DB55;
+    --bs-btn-active-border-color: #D8DB55;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #D8DB55;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #D8DB55;
+    --bs-gradient: none;
+}
+
+.bg-outline-warning {
+    border-color: #D8DB55;
+    border: solid;
+    padding: 0.5rem;
+    border-width: thin;
+}
+
+.list-group-item {
+    color: #D8DB55;
+    border-color: #D8DB55;
+    background: #232323;
+}
+
+.list-group-item:hover {
+    color: #232323;
+    background: #D8DB55;
+    border-color: #D8DB55;
+}
+
+.galeria {
+
+    display: grid;
+    grid-template-areas: "jeanzoom jeanzoom"
+        "mujerjean pilajean";
+
+}
+
+.galeria img,
+.collageTextos img {
+    margin-top: 25px;
+    width: 100%;
+    align-self: stretch;
+
+}
+
+.foto1 {
+    grid-area: jeanzoom;
+}
+
+.foto2 {
+    grid-area: mujerjean;
+}
+
+.foto3 {
+    grid-area: pilajean;
+}
+
+
+.collageTextos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: "frase1 frase1 frase1"
+        "frase2 frase2 frase2"
+        "mujeresjean mujeresjean mujeresjean"
+        "etiqueta frase3 frase3"
+        "etiqueta frase3 frase3"
+        "etiqueta frase3 frase3"
+        "doblado rouge rouge";
+
+
+}
+
+.parrafo1 {
+    grid-area: frase1;
+}
+
+.foto4 {
+    grid-area: mujeresjean;
+}
+
+.foto5 {
+    grid-area: etiqueta;
+}
+
+.foto6 {
+    grid-area: rouge;
+}
+
+.foto7 {
+    grid-area: doblado;
+}
+
+.parrafo2 {
+    grid-area: frase2;
+    margin-bottom: 5%;
+}
+
+.parrafo3 {
+    grid-area: frase3;
+    margin-top: 20%;
+}
+
+.infoCompra {
+    background-color: rgba(102, 102, 102, 0.219);
+    padding-top: 1em;
+    border-radius: 20px;
+}
+
+
+
+.dropdown-item:hover {
+    background-color: #D8DB55;
+}
+
+.detalleProducto {
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+@media screen and (min-width:1000px) {
+    body {
+        position: relative;
+        padding-bottom: 200px;
+        min-height: 100vh;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.navLateral {
+    background-color: #303030;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.admin {
+    color: white;
+}
+
+.table {
+    --bs-table-bg: rgb(16, 17, 2);
+    --bs-table-color: #fff;
+}
+
+.listaMateriales {
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+.buscador {
+    height: 35px;
+}
+
+.form-control:focus{
+    border: 1px solid #D8DB55;
+    box-shadow: none;
+}
+
+.carrito .form-control {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.totalCarrito{
+    justify-content: flex-end;
+}
